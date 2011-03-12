@@ -79,4 +79,11 @@ a {
 	-moz-box-shadow: 1px 1px 5px #000;
 	box-shadow: 1px 1px 5px #000;}
 @font-face { font-family: 'Dancing Script';src:url(/DancingScript-Regular.ttf);}
+@font-face { font-family: 'Kreon'; src:url(/Kreon-Regular.ttf);}
+@font-face { font-family: 'Kreon'; src:url(/Kreon-Bold.ttf); font-weight: bold;}
+@font-face { font-family: 'Kreon'; src:url(/Kreon-Light.ttf); font-weight: light;}
+@font-face { font-family: 'Ubuntu'; src: url(/Ubuntu-Regular.ttf); }
+@font-face { font-family: 'Ubuntu'; src: url(/Ubuntu-Italic.ttf); font-style: italic;}
+@font-face { font-family: 'Ubuntu'; src: url(/Ubuntu-Bold.ttf); font-weight: bold; }
+@font-face { font-family: 'Ubuntu'; src: url(/Ubuntu-BoldItalic.ttf); font-style:italic; font-weight: bold; }
 #logo_typography{font-family:'Dancing Script',Verdana, Helvetica, Arial; font-size:2em; line-height: 2em; color: #fff; width: 100px; height:62px; margin:0 auto; text-align:center; border: 1px dashed #fff; border-top:none;text-shadow: 1px 1px 1px #000;}

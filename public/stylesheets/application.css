@@ -73,3 +73,10 @@ a {
 .error_messages ul {
   margin: 0;
 }
+
+#logo {background:#ab232d; width: 110px; height: 67px; margin-left: 40px;
+	-webkit-box-shadow:1px 1px 5px #000;
+	-moz-box-shadow: 1px 1px 5px #000;
+	box-shadow: 1px 1px 5px #000;}
+@font-face { font-family: 'Dancing Script';src:url(DancingScript-Regular.ttf);}
+#logo_typography{font-family:'Dancing Script',Verdana, Helvetica, Arial; font-size:2em; line-height: 2em; color: #fff; width: 100px; height:62px; margin:0 auto; text-align:center; border: 1px dashed #fff; border-top:none;text-shadow: 1px 1px 1px #000;}

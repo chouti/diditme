@@ -9,7 +9,14 @@
   </head>
   <body>
 	<div id='logo'><div id='logo_typography'>Did it</div></div>
-	<div id='login'><%= link_to "Sign in with Doit.im", '/auth/doit'%></div>
+	<div id='login'>
+		<% if current_user %>
+			Welcome, <%= current_user.name %>!
+			Not you? <%= link_to "Sign Out", signout_path %>
+		<% else %>
+			<%= link_to "Sign in with Doit.im", '/auth/doit'%>
+		<% end %>
+	</div>
     <div id="container">
       <%= content_tag :h1, yield(:title) if show_title? %>
       <%= yield %>

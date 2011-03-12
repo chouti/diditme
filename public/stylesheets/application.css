@@ -1,3 +1,10 @@
+/*==================================================
+	Dark:			#460C08
+	Brown:			#5D2123
+	Red:			#AB232D
+	Dust:			#C79E60
+	Light:			#E1E8E9
+==================================================*/
 body {
   background: url(/images/bg.png);
   font-family: Verdana, Helvetica, Arial;
@@ -19,11 +26,9 @@ a {
 }
 
 #container {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
-  background-color: #FFF;
   padding: 20px 40px;
-  border: solid 1px black;
   margin-top: 20px;
 }
 
@@ -73,3 +78,22 @@ a {
 .error_messages ul {
   margin: 0;
 }
+
+#logo {background:#ab232d; width: 110px; height: 67px; margin-left: 40px;
+	-webkit-box-shadow:1px 1px 5px #000;
+	-moz-box-shadow: 1px 1px 5px #000;
+	box-shadow: 1px 1px 5px #000;}
+#logo_typography{font-family:'Dancing Script',Verdana, Helvetica, Arial; font-size:2em; line-height: 2em; color: #fff; width: 100px; height:62px; margin:0 auto; text-align:center; border: 1px dashed #fff; border-top:none;text-shadow: 1px 1px 1px #000;}
+#home {background: #F1F8F9; width: 100%; padding: 20px; position: relative; float: left;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius:15px;}
+#home h1 { font-family: 'Kreon Bold',Verdana, Helvetica, Arial; font-size: 2em; text-shadow: 1px 1px 1px #fff;}
+#home img{ border: 10px solid #fff;
+			-webkit-box-shadow: 1px 0px 5px #000;
+			-moz-box-shadow:1px 0px 5px #000;
+			box-shadow:1px 3px 0px #000;}
+.intro {position: relative; float: left; width: 100%; margin-top: 10px; margin-bottom:10px;}
+.left{ position: relative; float: left;}
+.right{ position: relative; float: right;}
+p {font-family: 'Ubuntu', verdana, Helvetica, Arial; font-size: 16px; padding: 10px;}

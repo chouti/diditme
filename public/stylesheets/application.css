@@ -84,8 +84,12 @@ a {
 	-moz-box-shadow: 1px 1px 5px #000;
 	box-shadow: 1px 1px 5px #000;}
 #logo_typography{font-family:'Dancing Script',Verdana, Helvetica, Arial; font-size:2em; line-height: 2em; color: #fff; width: 100px; height:62px; margin:0 auto; text-align:center; border: 1px dashed #fff; border-top:none;text-shadow: 1px 1px 1px #000;}
-#home {background: #E1E8E9; width: 100%;
+#home {background: #F1F8F9; width: 100%; padding: 20px; position: relative; float: left;
 		-webkit-border-radius: 15px;
 		-moz-border-radius: 15px;
 		border-radius:15px;}
-#home h1 { font-family: 'Kreon Bold',Verdana, Helvetica, Arial; font-size: 2em; text-shadow: 1px 1px 1px #fff; padding: 20px;}
+#home h1 { font-family: 'Kreon Bold',Verdana, Helvetica, Arial; font-size: 2em; text-shadow: 1px 1px 1px #fff;}
+.intro {position: relative; float: left; width: 100%;}
+.left{ position: relative; float: left; width: 70%;}
+.right{ position: relative; float: right; width: 30%;}
+p {font-family: 'Ubuntu', verdana, Helvetica, Arial; font-size: 16px; padding: 10px;}

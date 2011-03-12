@@ -2,5 +2,19 @@
 	<% flash.each do |name, msg| %>
 	  <%= content_tag :div, msg, :id => "flash_#{name}" %>
 	<% end %>
-	<h1>Test</h1>
+	<div id="review" class="intro">
+		<div id="review_intro" class="left">
+			<h1>Review achievements has never been so easy...</h1>
+			<p>Reviewing your achievements on daily bases has never been so easy.</p>
+		</div>
+		<div id="review_img" class="right"></div>
+	</div>
+	<div id="calendar">
+		<div id="calendar_intro" class="left"></div>
+		<div id="calendar_img" class="right"></div>
+	</div>
+	<div id="graph">
+		<div id="graph_intro" class="left"></div>
+		<div id="graph_img" class="right"></div>
+	</div>
 </div>

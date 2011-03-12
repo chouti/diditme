@@ -84,7 +84,7 @@ a {
 	-moz-box-shadow: 1px 1px 5px #000;
 	box-shadow: 1px 1px 5px #000;}
 #logo_typography{font-family:'Dancing Script',Verdana, Helvetica, Arial; font-size:2em; line-height: 2em; color: #fff; width: 100px; height:62px; margin:0 auto; text-align:center; border: 1px dashed #fff; border-top:none;text-shadow: 1px 1px 1px #000;}
-#home {background: #F1F8F9; width: 100%; padding: 20px; position: relative; float: left;
+#home, #days {background: #F1F8F9; width: 100%; padding: 20px; position: relative; float: left;
 		-webkit-border-radius: 15px;
 		-moz-border-radius: 15px;
 		border-radius:15px;}

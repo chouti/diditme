@@ -97,3 +97,6 @@ a {
 .left{ position: relative; float: left;}
 .right{ position: relative; float: right;}
 p {font-family: 'Ubuntu', verdana, Helvetica, Arial; font-size: 16px; padding: 10px;}
+#login {text-align: right;padding-right: 30px;}
+#login a{color: #fff; text-decoration: none;}
+#login a:hover { background: #5D2123;}

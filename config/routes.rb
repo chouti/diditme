@@ -1,5 +1,6 @@
 Diditme::Application.routes.draw do
   get "home/index"
+  match '/auth/:provider/callback' => 'session#create'
   
   root :to => "home#index"
 

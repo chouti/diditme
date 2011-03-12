@@ -1,4 +1,10 @@
 Diditme::Application.routes.draw do
+  get "task/index"
+
+  get "task/show"
+
+  get "task/new"
+
   get "home/index"
   match '/auth/:provider/callback' => 'sessions#create'
   match '/signout' => "sessions#destroy", :as => :signout
